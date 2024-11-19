@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "build": "bun build ./src --target=bun --outfile=./build/index.js --external ffmpeg-static"
+    "build": "bun build ./src --target=bun --outfile=./build/index.js --external ffmpeg-static",
+    "start": "bun run ./build/index.js"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
