@@ -20,10 +20,17 @@ A Discord bot that creates PagerDuty incidents from direct messages.
 ## Usage
 
 1. Clone this repository
+
+   ```sh
+   git clone https://github.com/saucesteals/wakeup
+   ```
+
 2. Install dependencies:
-   ```bash
+
+   ```sh
    bun install
    ```
+
 3. Create a `.env` file with the following variables:
 
    ```env
