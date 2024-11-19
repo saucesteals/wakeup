@@ -15,7 +15,7 @@ A Discord bot that creates PagerDuty incidents from direct messages.
 
 - [Bun](https://bun.sh) runtime
 - [Discord](https://discord.com) token
-- [PagerDuty](https://www.pagerduty.com) account
+- [PagerDuty](https://www.pagerduty.com) routing key
 
 ## Usage
 
