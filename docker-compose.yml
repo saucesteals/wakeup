@@ -1,0 +1,8 @@
+
+services:
+  wakeup:
+    container_name: wakeup
+    build: .
+    env_file:
+      - .env
+    restart: unless-stopped
